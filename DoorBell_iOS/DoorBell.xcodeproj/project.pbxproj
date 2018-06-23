@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E3F932C20DA71F000ECF6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F932B20DA71F000ECF6D3 /* ViewController.swift */; };
+		1E13AFF120DABE190009E509 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFF020DABE190009E509 /* Album.swift */; };
+		1E13AFF320DABE430009E509 /* AlbumCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFF220DABE430009E509 /* AlbumCollectionViewHeader.swift */; };
+		1E13AFF520DABE5B0009E509 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFF420DABE5B0009E509 /* APIClient.swift */; };
+		1E13AFF720DABE730009E509 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFF620DABE730009E509 /* DataStore.swift */; };
+		1E13AFF920DABE990009E509 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFF820DABE990009E509 /* DetailView.swift */; };
+		1E13AFFC20DABEC80009E509 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFFA20DABEC70009E509 /* Photo.swift */; };
+		1E13AFFD20DABEC80009E509 /* UpdatePhotosDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFFB20DABEC80009E509 /* UpdatePhotosDelegate.swift */; };
+		1E13AFFF20DABF1C0009E509 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13AFFE20DABF1C0009E509 /* DetailViewController.swift */; };
+		1E13B00120DABF2D0009E509 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13B00020DABF2C0009E509 /* ImageCollectionViewCell.swift */; };
+		1E13B00320DABF7A0009E509 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E13B00220DABF790009E509 /* DetailView.xib */; };
+		1E13B00A20DAC3ED0009E509 /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E13B00920DAC3ED0009E509 /* Image.storyboard */; };
+		1E2D4EA020DB290800485DB4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D4E9F20DB290800485DB4 /* ImageViewController.swift */; };
+		1E3F932C20DA71F000ECF6D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F932B20DA71F000ECF6D3 /* MainViewController.swift */; };
 		2F0C501D1EE3494F00035DCA /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F0C501C1EE3494F00035DCA /* OverlayView.xib */; };
 		2F0C501F1EE3498600035DCA /* MemberOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C501E1EE3498600035DCA /* MemberOverlayView.swift */; };
 		2F0C50211EE38BED00035DCA /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C50201EE38BED00035DCA /* AgendaViewController.swift */; };
@@ -27,7 +39,19 @@
 
 /* Begin PBXFileReference section */
 		10B03CBC06D43E17BD8EF916 /* Pods-DoorBell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorBell.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoorBell/Pods-DoorBell.release.xcconfig"; sourceTree = "<group>"; };
-		1E3F932B20DA71F000ECF6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E13AFF020DABE190009E509 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		1E13AFF220DABE430009E509 /* AlbumCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewHeader.swift; sourceTree = "<group>"; };
+		1E13AFF420DABE5B0009E509 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1E13AFF620DABE730009E509 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1E13AFF820DABE990009E509 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1E13AFFA20DABEC70009E509 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1E13AFFB20DABEC80009E509 /* UpdatePhotosDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePhotosDelegate.swift; sourceTree = "<group>"; };
+		1E13AFFE20DABF1C0009E509 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1E13B00020DABF2C0009E509 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E13B00220DABF790009E509 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		1E13B00920DAC3ED0009E509 /* Image.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
+		1E2D4E9F20DB290800485DB4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1E3F932B20DA71F000ECF6D3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2376E41A817B10C2880FA404 /* Pods_DoorBell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorBell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0C501C1EE3494F00035DCA /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		2F0C501E1EE3498600035DCA /* MemberOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberOverlayView.swift; sourceTree = "<group>"; };
@@ -75,6 +99,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1E13B00820DAC0190009E509 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1E13AFF020DABE190009E509 /* Album.swift */,
+				1E13AFF220DABE430009E509 /* AlbumCollectionViewHeader.swift */,
+				1E13AFF420DABE5B0009E509 /* APIClient.swift */,
+				1E13AFF620DABE730009E509 /* DataStore.swift */,
+				1E13AFF820DABE990009E509 /* DetailView.swift */,
+				1E13B00220DABF790009E509 /* DetailView.xib */,
+				1E13AFFB20DABEC80009E509 /* UpdatePhotosDelegate.swift */,
+				1E13AFFA20DABEC70009E509 /* Photo.swift */,
+				1E13AFFE20DABF1C0009E509 /* DetailViewController.swift */,
+				1E2D4E9F20DB290800485DB4 /* ImageViewController.swift */,
+				1E13B00020DABF2C0009E509 /* ImageCollectionViewCell.swift */,
+				1E13B00920DAC3ED0009E509 /* Image.storyboard */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		1EE0AF9820DE886E009A195B /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		2FDEA1C31EE3162C005F0052 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +146,8 @@
 		2FDEA1CE1EE3162C005F0052 /* DoorBell */ = {
 			isa = PBXGroup;
 			children = (
+				1EE0AF9820DE886E009A195B /* Chat */,
+				1E13B00820DAC0190009E509 /* Image */,
 				2F7325B51EF0619A00B3DE7D /* DoorBell.entitlements */,
 				2F0C501C1EE3494F00035DCA /* OverlayView.xib */,
 				CB5AA0761EE3232C008EF11E /* Assets.xcassets */,
@@ -109,7 +161,7 @@
 				2FDEA1D31EE3162C005F0052 /* Main.storyboard */,
 				2FDEA1D81EE3162C005F0052 /* LaunchScreen.storyboard */,
 				2FDEA1DB1EE3162C005F0052 /* Info.plist */,
-				1E3F932B20DA71F000ECF6D3 /* ViewController.swift */,
+				1E3F932B20DA71F000ECF6D3 /* MainViewController.swift */,
 			);
 			path = DoorBell;
 			sourceTree = "<group>";
@@ -196,8 +248,10 @@
 			files = (
 				2FDEA1DA1EE3162C005F0052 /* LaunchScreen.storyboard in Resources */,
 				2F0C501D1EE3494F00035DCA /* OverlayView.xib in Resources */,
+				1E13B00A20DAC3ED0009E509 /* Image.storyboard in Resources */,
 				CB5AA0771EE3232C008EF11E /* Assets.xcassets in Resources */,
 				2FDEA1D51EE3162C005F0052 /* Main.storyboard in Resources */,
+				1E13B00320DABF7A0009E509 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E13B00120DABF2D0009E509 /* ImageCollectionViewCell.swift in Sources */,
+				1E13AFFC20DABEC80009E509 /* Photo.swift in Sources */,
 				2FDEA1D21EE3162C005F0052 /* IndexViewController.swift in Sources */,
+				1E13AFF720DABE730009E509 /* DataStore.swift in Sources */,
 				2F2AB3C21EE32CD200F78862 /* VisitorViewController.swift in Sources */,
 				2F5BB2F11EF4E070008D14B1 /* MMSlidingButton.swift in Sources */,
+				1E13AFF320DABE430009E509 /* AlbumCollectionViewHeader.swift in Sources */,
 				2F0C50211EE38BED00035DCA /* AgendaViewController.swift in Sources */,
+				1E13AFFF20DABF1C0009E509 /* DetailViewController.swift in Sources */,
+				1E13AFF520DABE5B0009E509 /* APIClient.swift in Sources */,
+				1E2D4EA020DB290800485DB4 /* ImageViewController.swift in Sources */,
+				1E13AFFD20DABEC80009E509 /* UpdatePhotosDelegate.swift in Sources */,
+				1E13AFF920DABE990009E509 /* DetailView.swift in Sources */,
 				2F2AB3C41EE32D4100F78862 /* FamilyViewController.swift in Sources */,
+				1E13AFF120DABE190009E509 /* Album.swift in Sources */,
 				2F0C501F1EE3498600035DCA /* MemberOverlayView.swift in Sources */,
-				1E3F932C20DA71F000ECF6D3 /* ViewController.swift in Sources */,
+				1E3F932C20DA71F000ECF6D3 /* MainViewController.swift in Sources */,
 				2FDEA1D01EE3162C005F0052 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9GC7CU2K2;
 				INFOPLIST_FILE = DoorBell/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,7 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9GC7CU2K2;
 				INFOPLIST_FILE = DoorBell/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";

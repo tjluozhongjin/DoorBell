@@ -10,7 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ViewController: UIViewController{
+class MainViewController: UIViewController{
 
     
     var visit = UserDefaults.standard
